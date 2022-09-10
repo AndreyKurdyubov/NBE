@@ -15,3 +15,9 @@ def ivp(xdata, N0, k, gd, kex, kc, gnr, bgr):
     sol = solve_ivp(fun, tspan, n0, t_eval=xdata)
     
     return sol
+
+def test(x: int) -> 'np.array()':
+   return np.array([x]*5)
+
+if __name__ == '__main__':
+   print('Functions to calculate nonradiative broadening')
